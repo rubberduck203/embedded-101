@@ -7,11 +7,6 @@ Over the last year, I've been asked the same question over and over again.
 I usually tell people to go buy an Arduino, throw away the Arduino IDE and libraries, and figure out how to blink a light using just the AVR toolchain.  
 This "book" is designed to teach you how to do exactly that, and then move on to the other basics of embedded software dev that you need to know to start your journey.
 
-## Topics
-
- - [Introduction: What is Embedded Software?](./00-intro.md)
-
-
 ## Prerequisites
 
 As an introduction, this "course" requires no prior knowledge of embedded software, C, or C++, but does assume a general knowledge of programming in general.
@@ -41,3 +36,33 @@ For reasons you can read about on my blog if you care, [connecting a docker cont
 - Download and run the [mac-setup-docker.sh](mac-setup-docker.sh) script.
 - Setup your terminal by running `eval $(docker-machine env)`
   - You'll need to run this each time you create a new terminal, or add it to your profile.
+
+## Table of Contents
+
+ - [Introduction: What is Embedded Software?](./00-intro.md)
+ - [Hello World](./01-hello-world.md)
+ - Hello World Explained
+   - Data Sheets
+   - Registers
+   - Bit Twiddling
+     - And
+     - Or
+     - Not
+ - Make
+   - Basics
+   - AVR Template
+ - Offboard LED
+   - Breadboards, LEDs, schematics, more datasheets
+ - Interrupts (Turn light on/off with a push button)
+   - Bouncing
+   - Intro to Logic Analyzer
+ - Timers
+ - Unit Testing
+ - Pulse Width Modulation (PWM)
+ - Analog Digital Conversion (ADC)
+ - Serial Communications
+   - UART
+   - SPI
+   - I2C
+   - CAN
+   - Modbus
