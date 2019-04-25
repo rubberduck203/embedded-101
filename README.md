@@ -9,7 +9,7 @@ This "book" is designed to teach you how to do exactly that, and then move on to
 
 ## Prerequisites
 
-As an introduction, this "course" requires no prior knowledge of embedded software, C, or C++, but does assume a general knowledge of programming in general.
+As an introduction, this "course" requires no prior knowledge of embedded software, C, or C++, or electronics, but does assume a general knowledge of programming in general.
 
 ### Hardware
 
@@ -41,13 +41,7 @@ For reasons you can read about on my blog if you care, [connecting a docker cont
 
  - [Introduction: What is Embedded Software?](./00-intro.md)
  - [Hello World](./01-hello-world.md)
- - Hello World Explained
-   - Data Sheets
-   - Registers
-   - Bit Twiddling
-     - And
-     - Or
-     - Not
+ - [Hello World Explained](./02-hello-world-explained.md)
  - Make
    - Basics
    - AVR Template
@@ -58,6 +52,7 @@ For reasons you can read about on my blog if you care, [connecting a docker cont
    - Intro to Logic Analyzer
  - Timers
  - Unit Testing
+ - Integration Testing
  - Pulse Width Modulation (PWM)
  - Analog Digital Conversion (ADC)
  - Serial Communications
