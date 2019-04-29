@@ -37,6 +37,22 @@ For reasons you can read about on my blog if you care, [connecting a docker cont
 - Setup your terminal by running `eval $(docker-machine env)`
   - You'll need to run this each time you create a new terminal, or add it to your profile.
 
+#### Install tools on Mac via Homebrew
+
+Sometimes the docker setup can be a bit flaky in regards to usb, so if you want to just install the tools, you can use Homebrew.
+Be advised that compiling & installing the compilers can take quite some time.
+
+```bash
+brew tap osx-cross/avr
+brew install \
+    avr-gcc \
+    avrdude \
+    minicom \
+    cpputest \
+    pkg-config \
+    gcc
+```
+
 ## Table of Contents
 
  - [Introduction: What is Embedded Software?](./00-intro.md)
