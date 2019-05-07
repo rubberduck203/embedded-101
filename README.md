@@ -13,7 +13,9 @@ As an introduction, this "course" requires no prior knowledge of embedded softwa
 
 ### Hardware
 
-For this course, we'll use an [Arduino Uno](https://store.arduino.cc/usa/arduino-uno-rev3/) because of it's ubuity and availability.  
+For this course, we'll use an
+[Arduino Uno](https://store.arduino.cc/usa/arduino-uno-rev3/)
+because of its ubiquity and availability.
 Feel free to purchase a clone, personally, I like the [SparkFun Redboard](https://www.sparkfun.com/products/13975), but many different Uno clones are available for as little as $10.
 You'll also need a small breadboard, some jumpers, leds, resistors, capacitors, buttons, and other odds and ends to get the most out of this.  
 I recommend something like [Adafruit's Parts Pal](https://www.adafruit.com/product/2975) kit or [SparkFun's Beginners Parts Kit](https://www.sparkfun.com/products/13973) and [Half Sized Breadboard](https://www.sparkfun.com/products/12002).  
