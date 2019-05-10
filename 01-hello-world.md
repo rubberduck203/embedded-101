@@ -80,7 +80,7 @@ Not all processors come with a bootloader installed.
 Often, we'll need to use special purpose hardware, called a programmer, to directly burn programs to memory, but we'll just stick to the bootloader since we have it available to us.
 
 ```bash
-avrdude -v -patmega328p -carduino -b115200 -D -Uflash:w:hell-world.hex:i
+avrdude -v -patmega328p -carduino -b115200 -D -Uflash:w:hello-world.hex:i
 ```
 
 This uploads to an Atmega 328p process, using the Arduino bootloader, at a baud rate of 115200 bits/s, deletes the flash prior to uploading, then uploads our hex file to the flash memory on the target device.
