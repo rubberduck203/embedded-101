@@ -28,20 +28,12 @@ It contains the AVR toolchain and relevant software you'll need.
 
 If you're running Linux, you need no additional setup, beyond some configuration files to tell `avrdude` and `minicom` which serial port your board is attached to.
 
-#### Using the docker image on Mac
-
-For reasons you can read about on my blog if you care, [connecting a docker container to USB ports on Mac](https://christopherjmcclellan.wordpress.com/2019/04/21/using-usb-with-docker-for-mac/) requires a bit more software and setup.
-
-- Download and Install [VirtualBox 6.06](https://www.virtualbox.org/wiki/Downloads) or greater.
-  - You MUST have version 6.06 or greater, there was a bug in earlier versions that cause this to fail.
-- Download and install the [VirtualBox extension pack](https://download.virtualbox.org/virtualbox/6.0.6/Oracle_VM_VirtualBox_Extension_Pack-6.0.6.vbox-extpack)
-- Download and run the [mac-setup-docker.sh](mac-setup-docker.sh) script.
-- Setup your terminal by running `eval $(docker-machine env)`
-  - You'll need to run this each time you create a new terminal, or add it to your profile.
-
 #### Install tools on Mac via Homebrew
 
-Sometimes the docker setup can be a bit flaky in regards to usb, so if you want to just install the tools, you can use Homebrew.
+This is the recommended way of installing the tools on OS X.
+For some people the docker setup below works fine, for others, VirtualBox can't see the USB device.
+For that reason, I highly recommend you just use Homebrew to install the AVR toolchain.
+
 Be advised that compiling & installing the compilers can take quite some time.
 
 ```bash
@@ -54,6 +46,17 @@ brew install \
     pkg-config \
     gcc
 ```
+
+#### Using the docker image on Mac
+
+For reasons you can read about on my blog if you care, [connecting a docker container to USB ports on Mac](https://christopherjmcclellan.wordpress.com/2019/04/21/using-usb-with-docker-for-mac/) requires a bit more software and setup.
+
+- Download and Install [VirtualBox 6.06](https://www.virtualbox.org/wiki/Downloads) or greater.
+  - You MUST have version 6.06 or greater, there was a bug in earlier versions that cause this to fail.
+- Download and install the [VirtualBox extension pack](https://download.virtualbox.org/virtualbox/6.0.6/Oracle_VM_VirtualBox_Extension_Pack-6.0.6.vbox-extpack)
+- Download and run the [mac-setup-docker.sh](mac-setup-docker.sh) script.
+- Setup your terminal by running `eval $(docker-machine env)`
+  - You'll need to run this each time you create a new terminal, or add it to your profile.
 
 ## Table of Contents
 
