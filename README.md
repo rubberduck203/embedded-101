@@ -21,6 +21,11 @@ You'll also need a small breadboard, some jumpers, leds, resistors, capacitors, 
 I recommend something like [Adafruit's Parts Pal](https://www.adafruit.com/product/2975) kit or [SparkFun's Beginners Parts Kit](https://www.sparkfun.com/products/13973) and [Half Sized Breadboard](https://www.sparkfun.com/products/12002).  
 We're not going to cover electronics at any depth, but we will need to wire up a few simple circuits.
 
+#### Datasheets
+
+- [Atmega328p](http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061A.pdf)
+- [Sparkfun Redboard](https://cdn.sparkfun.com/assets/1/3/5/9/6/Redboardv2.pdf)
+
 ### Software
 
 For my own projects, I've developed a [Docker image for AVR development](https://hub.docker.com/r/rubberduck/avr).  
@@ -63,11 +68,11 @@ For reasons you can read about on my blog if you care, [connecting a docker cont
  - [Introduction: What is Embedded Software?](./00-intro.md)
  - [Hello World](./01-hello-world.md)
  - [Hello World Explained](./02-hello-world-explained.md)
+ - [Exercise: Offboard LEDs](./03-offboard-leds.md)
+   - Breadboards, LEDs, schematics, more datasheets
  - Make
    - Basics
    - AVR Template
- - Offboard LED
-   - Breadboards, LEDs, schematics, more datasheets
  - Interrupts (Turn light on/off with a push button)
    - Bouncing
    - Intro to Logic Analyzer
