@@ -153,8 +153,7 @@ In addition to this, we can automatically detect all the source files as well as
 Creating `makefile`s is a fairly deep topic, and we've barely scratched the surface.  
 I encourage you to [read the documentation](https://www.gnu.org/software/make/manual/html_node/) and learn more, but I mostly wanted to give you a brief introduction to the topic.  
 
-For the remainder of this course, we'll use the avr-template makefiles I've already created that are available on GitHub.
-
+For the remainder of this course, we'll use a set of `makefile`s I've already created for you.  
 https://github.com/rubberduck203/avr-template
 
 [Prev](./03-offboard-leds.md)
