@@ -25,3 +25,6 @@ Additional Resources:
 - [How to use a breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all)
 - [LED Tutorial](https://learn.sparkfun.com/tutorials/activity-guide-for-sparkfun-tinker-kit/circuit-1-blink-an-led)
 - [Active High vs. Active Low](https://learn.sparkfun.com/tutorials/logic-levels/all#active-low-and-active-high)
+
+[Prev](./02-hello-world-explained.md)
+[Next](./04-build-systems.md)

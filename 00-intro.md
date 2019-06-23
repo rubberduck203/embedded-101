@@ -55,3 +55,5 @@ Here, there is no operating system.
 We're directly responsible for interacting with the hardware.
 This is what most people are thinking of when they ask me about embedded software, and possibly the hardest to get started with on your own.  
 Therefore, this will be the topic of the rest of the book.
+
+[Next](./01-hello-world.md)

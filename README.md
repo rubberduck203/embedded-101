@@ -70,9 +70,7 @@ For reasons you can read about on my blog if you care, [connecting a docker cont
  - [Hello World Explained](./02-hello-world-explained.md)
  - [Exercise: Offboard LEDs](./03-offboard-leds.md)
    - Breadboards, LEDs, schematics, more datasheets
- - Make
-   - Basics
-   - AVR Template
+ - [Build Systems (Make)](./04-build-systems.md)
  - Interrupts (Turn light on/off with a push button)
    - Bouncing
    - Intro to Logic Analyzer

@@ -88,4 +88,5 @@ This uploads to an Atmega 328p process, using the Arduino bootloader, at a baud 
 If all went well, you should the built-in led flashing on and off every half second!
 Congratulations!
 
+[Prev](./00-intro.md)
 [Next](./02-hello-world-explained.md)

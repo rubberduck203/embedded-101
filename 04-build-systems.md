@@ -156,3 +156,6 @@ I encourage you to [read the documentation](https://www.gnu.org/software/make/ma
 For the remainder of this course, we'll use the avr-template makefiles I've already created that are available on GitHub.
 
 https://github.com/rubberduck203/avr-template
+
+[Prev](./03-offboard-leds.md)
+[Next]()
