@@ -157,4 +157,4 @@ For the remainder of this course, we'll use a set of `makefile`s I've already cr
 https://github.com/rubberduck203/avr-template
 
 [Prev](./03-offboard-leds.md)
-[Next]()
+[Next](./05-interrupts.md)

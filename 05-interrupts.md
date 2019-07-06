@@ -222,3 +222,6 @@ This filter smooths out the bouncing, giving us a single rising edge to trigger 
 Of course, this requires extra hardware, which adds to our BOM (Bill of Materials) cost. Sometimes we may want to avoid that cost and added hardware complexity and debounce using software.
 
 As a challenge, wire back up our original circuit and implement some software that debounces the button.
+
+[Prev](./04-build-systems.md)
+[Next]()

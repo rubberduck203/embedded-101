@@ -71,9 +71,8 @@ For reasons you can read about on my blog if you care, [connecting a docker cont
  - [Exercise: Offboard LEDs](./03-offboard-leds.md)
    - Breadboards, LEDs, schematics, more datasheets
  - [Build Systems (Make)](./04-build-systems.md)
- - Interrupts (Turn light on/off with a push button)
-   - Bouncing
-   - Intro to Logic Analyzer
+ - [Interrupts](./05-interrupts.md)
+   - Turn a light on/off with a push button
  - Timers
  - Unit Testing
  - Integration Testing
