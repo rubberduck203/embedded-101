@@ -74,6 +74,9 @@ For reasons you can read about on my blog if you care, [connecting a docker cont
  - [Interrupts](./05-interrupts.md)
    - Turn a light on/off with a push button
  - Timers
+ - Number Formats
+   - 2's Complement
+   - Fixed Point
  - Unit Testing
  - Integration Testing
  - Pulse Width Modulation (PWM)
